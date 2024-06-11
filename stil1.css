@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family:"AnamarijaLucic";
+	src:url("AnamarijaLucic.ttf") format('opentype');
+	font-weight: normal;
+	font-style:normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252a;
+  text-align: center;
+}
+ul{
+	margin-left: auto; 
+	margin-right:auto;  
+}
+
+.nav__links a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  padding: 0px 20px;
+}
+
+a {
+  transition: color 0.3s ease 0s;
+}
+
+a:hover {
+  color: rgba(89,169,146,1.00);
+}
+
+body {
+  background-image: url("slike/pozadina1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+}
+
+h1{
+    font-family:"AnamarijaLucic";
+	font-size: 60px;
+	text-align: center;
+	font-weight:bolder;
+	padding-top: 10px;
+}
+
+h2{
+    font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	font-weight:bold;
+	text-align: center;
+	padding-top: 10px;
+	font-style: italic;
+}
+
+p{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.transparent-square {
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 40px; 
+    border-radius: 10px; 
+    width: 90%; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+    text-align: center;
+    color: #333; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+    margin-top: 180px; 
+}
+
+.transparent-square h1,
+.transparent-square h2,
+.transparent-square p {
+    margin: 20px 0; 
+}
